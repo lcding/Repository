@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">android_cr1301</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  BluetoothChat -->
+    <string name="network">Network Segment :</string>
+    <string name="shortaddress">Short Address :</string>
+    <string name="send">Send And To Next</string>
+    <string name="config">Config The ZigBee</string>
+    <string name="config1">ZigBee To Router</string>
+    <string name="setting">Config ZigBee Of Default</string>  
+    <string name="add">Add New Robot</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!--  XinZeng -->
+    <string name="xz_number">编    号:</string>
+    <string name="xz_number_show">wait...</string>
+    <string name="xz_network">网    络:</string>
+    <string name="xz_network_show">wait...</string>
+    <string name="xz_address">短地址:</string>
+    <string name="xz_address_show">wait...</string>
+  
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+    <TextView 
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:text="清空"
+        android:textSize="50px"
+        android:gravity="center"
+        />
+    <TextView 
+    	android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否清空相关警告记录？"    
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:textSize="30px"/>
+
+</LinearLayout>

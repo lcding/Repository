@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+		android:id="@+id/jiance_zhixian_dianji"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/beijing"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="电流检测(A)"
+			android:textColor="#0000ff"
+			android:textSize="18dp" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="直线电机1:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/zhidian01"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/zhidian01btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="直线电机2:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/zhidian02"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/zhidian02btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="直线电机3:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/zhidian03"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/zhidian03btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=" 泄  气  阀1:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/xieqi01"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/xieqi01btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=" 泄  气  阀2:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/xieqi02"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/xieqi02btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=" 泄  气  阀3:"
+				android:textSize="18dp" />
+
+			<TextView
+				android:id="@+id/xieqi03"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="18dp" />
+
+			<Button
+				android:id="@+id/xieqi03btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="18dp" />
+			
+			<Button 
+				android:id="@+id/first_key"
+				android:layout_marginLeft="5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="StopKey"
+				android:textSize="18dp"/>
+		</LinearLayout>
+	<!-- <LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0.5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+			<Button 
+				android:id="@+id/first_key"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="StopKey"
+				android:textSize="18dp"/>
+		</LinearLayout> -->
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/jiance_xipan_air"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/beijing"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="真空度检测"
+			android:textColor="#0000ff"
+			android:textSize="20dp" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="前吸盘---真空度(kpa):"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/qianxipan"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/qianxipanbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="主吸盘---真空度(kpa):"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/zhuxipan"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/zhuxipanbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="辅助吸盘真空度(kpa):"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/fuxi"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/fuxibtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+			<Button 
+				android:id="@+id/second_key"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="StopKey"
+				android:textSize="20dp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/jiance_sigan_xuanzhuan"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/beijing"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="电流检测(A)"
+			android:textColor="#0000ff"
+			android:textSize="20dp" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="丝杆前进:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/siganqianjin"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/siganqianjinbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="丝杆后退:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/siganhoutui"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/siganhoutuibtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="向左旋转:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/xuanzhuanleft"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/xuanzhuanleftbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="向右旋转:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/xuanzhuanright"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/xuanzhuanrightbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+			<Button 
+				android:id="@+id/third_key"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="StopKey"
+				android:textSize="20dp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/jiance_qianhou_qibeng"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/beijing"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="电流检测(A)"
+			android:textColor="#0000ff"
+			android:textSize="20dp" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="前气泵:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/qianqibeng"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/qianqibengbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="ture"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="后气泵:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/houqibeng"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/houqibengbtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="风    机:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/fengji"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/fengjibtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="滚    刷:"
+				android:textSize="20dp" />
+
+			<TextView
+				android:id="@+id/gunshua"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:background="@drawable/textview_color"
+				android:textSize="20dp" />
+
+			<Button
+				android:id="@+id/gunshuabtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检测"
+				android:textSize="20dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+			<Button 
+				android:id="@+id/fourth_key"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="StopKey"
+				android:textSize="20dp"/>
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>
