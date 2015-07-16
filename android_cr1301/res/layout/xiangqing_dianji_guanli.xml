@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical" >
+
+	<!-- 添加，返回按钮 -->
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:gravity="center"
+		android:layout_marginTop="30dp">
+
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="电机管理"
+		android:textColor="#ffffff"
+		android:textSize="50dp"
+		android:textStyle="bold" />
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="输入密码:"
+		android:textSize="20dp" />
+
+	
+	<EditText
+		android:layout_width="200dp"
+		android:layout_height="30dp"
+		android:layout_marginTop="10dp"
+		android:id="@drawable/textview_color" />
+	
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/queding"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/dianji_guanli_btn"
+			android:gravity="center"
+			android:text="确定"
+			android:textSize="20dp" />
+
+		<Button
+			android:id="@+id/quxiao"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:background="@drawable/dianji_guanli_btn"
+			android:text="取消"
+			android:gravity="center"
+			android:textSize="20dp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center" 
+		android:layout_marginTop="100dp">
+
+		<Button
+			android:id="@+id/gaimi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/dianji_guanli_btn"
+			android:gravity="center"
+			android:text="修改密码"
+			android:textSize="20dp" 
+			android:layout_marginRight="80dp"/>
+
+		<Button
+			android:id="@+id/bangzhu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:background="@drawable/dianji_guanli_btn"
+			android:gravity="center"
+			android:text="帮助 >>"
+			android:textSize="20dp" />
+	</LinearLayout>
+
+</LinearLayout>

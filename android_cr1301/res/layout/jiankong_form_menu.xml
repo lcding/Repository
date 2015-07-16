@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/beijing"
+    android:orientation="vertical" >
+
+    <!-- 添加模块 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="监控页面"
+            android:textColor="#ffffff"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+        <Button
+        	android:layout_marginLeft="1000dp"
+            android:id="@+id/menuxinzeng"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jiankong_xinzeng"/>
+        <Button
+        	android:layout_marginLeft="100dp"
+            android:id="@+id/menushanchu"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shanchu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="编号"
+            android:textColor="#ffffff"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:background="@drawable/textview_color1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="运行状态"
+            android:textColor="#ffffff"
+            android:textSize="30px" 
+            android:layout_weight="1"
+            android:background="@drawable/textview_color1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="网络信号"
+            android:textColor="#ffffff"
+            android:textSize="30px" 
+            android:layout_weight="1"
+            android:background="@drawable/textview_color1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="电池电量"
+            android:textColor="#ffffff"
+            android:textSize="30px" 
+            android:layout_weight="1"
+            android:background="@drawable/textview_color1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="工作状态"
+            android:textColor="#ffffff"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:background="@drawable/textview_color1" />
+
+        
+    </LinearLayout>
+
+    <!-- 自适应表格 ，代码实现表格，以及数据 -->
+
+    <!--  横向滑动<HorizontalScrollView
+        android:id="@+id/HorizontalScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_gravity="center">-->
+
+        <ListView
+            android:background="#ffffff"
+            android:id="@+id/ListView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"            
+            android:dividerHeight="1px"
+            android:divider="#0000FF"      
+         ></ListView>
+
+    <!--  </HorizontalScrollView>-->
+
+     
+</LinearLayout>

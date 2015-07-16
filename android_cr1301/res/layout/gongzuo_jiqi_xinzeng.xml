@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/beijing" >
+    
+  
+    <TextView 
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:gravity="center"
+    	android:textSize="50dp"
+    	android:text="Add New Robot"
+    	android:textColor="#00ffff"/>
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    	<TextView 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/network"
+    		android:textSize="15dp"/>
+    	<EditText 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:maxLength="4"
+    		android:hint=" 0000~FFFE"
+    		android:id="@+id/wangduan01"
+    		android:textSize="15dp"/>
+    	<TextView 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/shortaddress"
+    		android:textSize="15dp"/>
+    	<EditText 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:maxLength="4"
+    		android:hint=" 0000~FFFE"
+    		android:id="@+id/duandizhi01"
+    		android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <Button android:id="@+id/button_config01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center"
+        />
+        <Button android:id="@+id/button_config02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/config1"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center"
+        />
+        <Button android:id="@+id/button_setting01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:layout_weight="1"
+            android:textSize="15dp"
+        />
+        <Button android:id="@+id/button_xinzeng01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center"
+            
+            />
+      <!--android:background="@drawable/shape"  -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/xz_number"
+        	android:textColor="#ff00ff"
+        	android:textSize="15dp" />
+    	
+    	<TextView 
+    		android:id="@+id/TVxznumbershow"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/xz_number_show"
+    		android:textColor="#ff00ff"
+    		android:textSize="15dp"/>
+    </LinearLayout>
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    	<TextView 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/xz_network"
+    		android:textColor="#ff00ff"
+    		android:textSize="15dp"/>
+    	
+    	<TextView 
+    		android:id="@+id/TVxznetworkshow"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/xz_network_show"
+    		android:textColor="#ff00ff"
+    		android:textSize="15dp"/>
+    </LinearLayout>
+    
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    	<TextView 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/xz_address"
+    		android:textColor="#ff00ff"
+    		android:textSize="15dp"/>
+    	
+    	<TextView 
+    		android:id="@+id/TVxzaddressshow"
+    		android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/xz_address_show"
+    		android:textColor="#ff00ff"
+    		android:textSize="15dp"/>
+    </LinearLayout>
+    <!--
+      <TextView 
+      	android:layout_marginTop="30dp"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:gravity="center"
+      	android:text="wait..."
+      	android:textColor="#0000ff"
+      	android:textSize="40dp"
+      	android:id="@+id/success"/>  -->
+      
+      <Button 
+      	android:layout_marginTop="30dp"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:gravity="center"
+      	android:text="key of cpnfig"
+      	android:textColor="#0000ff"
+      	android:textSize="40dp"
+      	android:id="@+id/btn"/>
+</LinearLayout>
